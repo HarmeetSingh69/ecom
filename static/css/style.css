@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap');
+
+:root{
+    --primary: rgb(37, 37, 37);
+    --secondary: rgb(255, 255, 255);
+    --tertiary: rgb(0, 0, 0);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Navbar */
+
+nav{
+    background-color: var(--primary);
+}
+
+nav .navbar-brand, .nav-link{
+    color: white !important;
+}
+
+.navbar-collapse{
+    transition: all .5s !important;
+}
+
+.navbar-toggler:focus{
+    box-shadow: none !important;
+}
+
+/* Home */
+
+h2{
+    text-align: center;
+    padding: 1rem;
+    margin: 0;
+}
+
+.card img{
+    height: 14.5rem;
+    width: 12rem;
+    padding: 1rem;
+}
